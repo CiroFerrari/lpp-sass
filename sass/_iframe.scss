@@ -1,0 +1,26 @@
+.index__iframe {
+    width: 90%;
+    height: 20rem;
+    &:hover {
+        transform: scale(1.1);
+        transition: 1s;
+    }   
+}
+
+@media (max-width: 480px) {
+    .index__iframe {
+        height: 15rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .index__iframe {
+        height: 25rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .index__iframe {
+        height: 30rem;
+    }
+}

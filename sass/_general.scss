@@ -1,0 +1,40 @@
+* {
+    margin: $ceroPx;
+    padding: $ceroPx;
+}
+
+body {
+    background-image: url(../imagenes/fondo-5.png);
+}
+
+.nav__top {
+    top: $ceroPx;
+}
+
+.navbar-brand__img {
+    width: 60px;
+    animation-name: escalarLogo;
+    animation-duration: 1s;
+    &:hover {
+        transform: scale(1.2);
+        transition: 1s;
+    }
+}
+
+@keyframes escalarLogo {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+h1, h2 {
+    width: $anchoTitulos;
+}
+
+.anchor {
+    text-decoration: none;
+    color: $colorText;
+}

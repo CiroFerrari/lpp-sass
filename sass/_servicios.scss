@@ -1,0 +1,14 @@
+.servicios__img {
+    width: 80%;
+}
+
+.img__ultra {
+    height: 100%;
+    width: 105%;
+}
+
+@media (max-width: 480px) {
+    .servicios__img {
+        width: 100%;
+    }
+}
