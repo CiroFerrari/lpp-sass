@@ -1,9 +1,9 @@
 .contacto__img {
-    width: 90%;
+    width: map-get($anchos, ancho90);
 }
 
 .contacto__formulario {
     border-radius: 25px;
-    width: 85%;
-    height: 25rem;
+    width: map-get($anchos, ancho85);
+    height: map-get($altos, alto25rem);
 }

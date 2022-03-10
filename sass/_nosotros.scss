@@ -1,5 +1,5 @@
 .nosotros__img {
-    width: 90%;
+    @extend .contacto__img;
     animation-name: escalar;
     animation-duration: 10s;
     animation-iteration-count: 3;

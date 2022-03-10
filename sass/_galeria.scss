@@ -4,6 +4,6 @@
 
 @media (min-width: 992px) {
     .carousel__galeria {
-        width: 50%;
+        width: map-get($anchos, ancho50);
     }
 }

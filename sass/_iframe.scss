@@ -1,26 +1,23 @@
 .index__iframe {
-    width: 90%;
-    height: 20rem;
+    @extend .contacto__img;
     &:hover {
         transform: scale(1.1);
         transition: 1s;
     }   
 }
 
-@media (max-width: 480px) {
-    .index__iframe {
-        height: 15rem;
-    }
-}
+$responsive: (
+    001px: 15rem,
+    480px: 20rem,
+    768px: 25rem,
+    992px: 30rem,
+    1200px: 20rem
+);
 
-@media (min-width: 768px) and (max-width: 991px) {
-    .index__iframe {
-        height: 25rem;
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-    .index__iframe {
-        height: 30rem;
+@each $anchoPantalla, $altoVideo in $responsive { 
+    @media (min-width: #{$anchoPantalla}) {
+        .index__iframe {
+        height: $altoVideo; 
+        }
     }
 }

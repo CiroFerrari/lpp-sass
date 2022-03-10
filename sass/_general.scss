@@ -38,3 +38,8 @@ h1, h2 {
     text-decoration: none;
     color: $colorText;
 }
+
+@mixin sizes($height, $width) { 
+    height: $height;
+    width: $width;
+}

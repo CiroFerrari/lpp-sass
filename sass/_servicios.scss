@@ -1,14 +1,13 @@
 .servicios__img {
-    width: 80%;
+    width: map-get($anchos, ancho80);
 }
 
 .img__ultra {
-    height: 100%;
-    width: 105%;
+    @include sizes(map-get($altos, alto100), map-get($anchos, ancho105));
 }
 
 @media (max-width: 480px) {
     .servicios__img {
-        width: 100%;
+        width: map-get($anchos, ancho100);
     }
 }
