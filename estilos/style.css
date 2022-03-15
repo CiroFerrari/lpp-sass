@@ -3,7 +3,7 @@
   padding: 0px; }
 
 body {
-  background-image: url(../imagenes/fondo-5.png); }
+  background-image: url("../imagenes/fondo-7.webp"); }
 
 .nav__top {
   top: 0px; }
@@ -64,8 +64,10 @@ h1, h2 {
   .servicios__img {
     width: 100%; } }
 
-.galeria__body {
-  background-image: url("../imagenes/fondogaleria4.jpg"); }
+@media (max-width: 480px) {
+  .carousel__galeria {
+    margin-top: 3rem;
+    margin-bottom: 5rem; } }
 
 @media (min-width: 992px) {
   .carousel__galeria {

@@ -1,5 +1,8 @@
-.galeria__body {
-    background-image: url("../imagenes/fondogaleria4.jpg");
+@media (max-width: 480px) {
+    .carousel__galeria {
+        margin-top: 3rem;
+        margin-bottom: 5rem;
+    }
 }
 
 @media (min-width: 992px) {
